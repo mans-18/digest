@@ -20,7 +20,7 @@ class UserAdmin(BaseUserAdmin):
         (None, {
             'classes': ('wide',),
             # May add more user fields like name
-            'fields': ('email', 'password1', 'password2')
+            'fields': ('name', 'email', 'password1', 'password2')
         }),
     )
 
